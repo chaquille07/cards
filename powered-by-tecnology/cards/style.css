@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+:root{
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+    --Very-Dark-Blue: hsl(234, 12%, 34%);
+    --Grayish-Blue: hsl(229, 6%, 66%);
+    --Very-Light-Gray: hsl(0, 0%, 98%);
+}
+
+.titulo{
+    color: var(--Very-Dark-Blue);
+    font-weight: 250;
+    text-align: center;
+}
+
+.paragrafo{
+    font-size: 20px;
+    color: var(--Grayish-Blue);
+    text-align: center;
+}
+
+.card-surpervisor{
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 10px 12px 38px 18px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 50px;
+    border-top: 5px solid var(--Cyan);
+    position: relative;
+    left: 650px;
+    top: 200px;
+}
+
+.titulo-surpervisor{
+    color: var(--Very-Dark-Blue);
+    margin: 15px;
+}
+
+.texto-surpervisor{
+    color: var(--Grayish-Blue);
+    width: 300px;
+}
+
+.icon-surpervisor{
+    width: 75px;
+    align-self: flex-end;
+}
+
+
+
+.card-team_builder{
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 10px 12px 38px 18px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 50px;
+    border-top: 5px solid var(--Red);
+    position: relative;
+    left: 690px;
+    top: 50px;
+}
+
+.titulo-team_builder{
+    color: var(--Very-Dark-Blue);
+    margin: 15px;
+}
+
+.texto-team_builder{
+    color: var(--Grayish-Blue);
+    width: 300px;
+}
+
+.icon-team_builder{
+    width: 75px;
+    align-self: flex-end;
+}
+
+
+
+.card-karma{
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 10px 12px 38px 18px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 50px;
+    border-top: 5px solid var(--Orange);
+    position: relative;
+    left: 285px;
+    top: 400px;
+}
+
+.titulo-karma{
+    color: var(--Very-Dark-Blue);
+    margin: 15px;
+}
+
+.texto-karma{
+    color: var(--Grayish-Blue);
+    width: 300px;
+}
+
+.icon-karma{
+    width: 75px;
+    align-self: flex-end;
+}
+
+
+
+.card-calculator{
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 10px 12px 38px 18px rgba(163,165,174,0.5);
+    border-radius: 5px;
+    padding: 50px;
+    border-top: 5px solid var(--Blue);
+    position: relative;
+    left: 325px;
+    top: 200px;
+}
+
+.titulo-calculator{
+    color: var(--Very-Dark-Blue);
+    margin: 15px;
+}
+
+.texto-calculator{
+    color: var(--Grayish-Blue);
+    width: 300px;
+}
+
+.icon-calculator{
+    width: 75px;
+    align-self: flex-end;
+}
+
+
+
+
+
+
+
+
